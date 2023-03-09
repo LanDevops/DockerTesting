@@ -1,4 +1,5 @@
 #!/bin/bash 
+sshpass -p ${PASS} ssh -o StrictHostKeyChecking=no root@65.2.185.165 'echo '${PASS}' 
 sudo chown -R $(whoami):$(whoami) /opt
 cd /opt/git
 git clone https://github.com/LanDevops/DockerTesting
