@@ -1,5 +1,4 @@
 #!/bin/bash 
-ssh root@65.2.185.165
 sudo chown -R $(whoami):$(whoami) /opt
 cd /opt/git
 git clone https://github.com/LanDevops/DockerTesting
