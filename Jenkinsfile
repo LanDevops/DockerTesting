@@ -1,5 +1,5 @@
 #!/bin/bash 
-ssh root@65.2.185.165  
+ssh root@65.2.185.165:22 -p Docker@098
 sudo chown -R $(whoami):$(whoami) /opt
 cd /opt/git
 git clone https://github.com/LanDevops/DockerTesting
